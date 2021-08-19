@@ -1,3 +1,14 @@
 <h1> Inside App Component</h1>
 <input type="text" name="" id="">
+
+<h3> Addition Program :</h3>
+<label for="">Number 1 : </label>
+<input type="text" name="newn1" #n1 />
+<label for=""><h2> + </h2></label>
+<label for="">Number 2 : </label>
+<input type="text" name="newn2" #n2 /> <br><br>
+
+<button (click)="add(n1, n2)"> ADD </button> 
+<h3> Addition is : {{ans}} </h3>
+
 <app-demo></app-demo>

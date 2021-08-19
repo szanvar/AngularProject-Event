@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Events';
+
+  ans : number | undefined;
+
+  add(newn1: HTMLInputElement, newn2: HTMLInputElement)
+  {
+    this.ans = parseInt(newn1.value) + parseInt(newn2.value);    
+  }
 }
