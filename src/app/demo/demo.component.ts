@@ -15,7 +15,6 @@ export class DemoComponent implements OnInit
   {
     this.name = "Button Clicked";
     //console.log("Button Clicked");
-    
   }
   constructor() 
   {
